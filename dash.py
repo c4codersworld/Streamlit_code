@@ -61,7 +61,7 @@ st.sidebar.title("Visualization Selector")
 
 
 
-bar_select = st.sidebar.selectbox('Visualization type', ['All', 'Confirmed','Recovered','Deaths'], key='1')
+bar_select = st.sidebar.selectbox('Most COVID States', ['All', 'Confirmed','Recovered','Deaths'], key='1')
 
 
 
@@ -94,7 +94,7 @@ if bar_select=='Deaths':
     st.plotly_chart(fig)
 
 
-line_select = st.sidebar.selectbox('Visualization type', ['All', 'Confirmed','Recovered','Deaths'])
+line_select = st.sidebar.selectbox('Daily Confirmed, Recovered Cases , Daily Deaths', ['All', 'Confirmed','Recovered','Deaths'])
 
 
 if line_select == 'All':
