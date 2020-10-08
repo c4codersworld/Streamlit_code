@@ -54,7 +54,7 @@ country_data_timeline['Dates'] = date_list
 
 #st.title("Covid-19 Dashboard For India")
 st.markdown("<h1 style='text-align: left; color: red;'>Covid-19 Dashboard For India</h1>",unsafe_allow_html=True)
-st.markdown('The dashboard will visualize the Covid-19 Situation in India')
+st.markdown('The dashboard visualizes the Covid-19 condition in India')
 
 #st.markdown('Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.')
 st.sidebar.title("Visualization Selector")
